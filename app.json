@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/nav/nav"
   ],
   "window":{
     "backgroundTextStyle":"black",
@@ -14,14 +15,19 @@
   "style": "v2",
   "tabBar": {
     "custom": false,
-    "color": "black",
+    "color": "#000",
     "selectedColor": "#ff1d55",
-    "backgroundColor": "#fff",
+    "borderStyle":"white",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "芯烨",
       "iconPath": "images/home.png",
       "selectedIconPath":"images/home_active.png"
+    }, {
+      "pagePath": "pages/nav/nav",
+      "text": "分类",
+      "iconPath": "images/nav_icon.png",
+      "selectedIconPath":"images/nav_icon_active.png"
     }, {
       "pagePath": "pages/logs/logs",
       "text": "票据",
