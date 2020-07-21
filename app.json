@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "广州芯烨",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundC0lor":"#ddd"
+  },
+  "style": "v2",
+  "tabBar": {
+    "custom": false,
+    "color": "black",
+    "selectedColor": "#ff1d55",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "芯烨",
+      "iconPath": "images/home.png",
+      "selectedIconPath":"images/home_active.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "票据",
+      "iconPath": "images/shezhi.png",
+      "selectedIconPath":"images/shezhi_active.png"
+    }]
+  }
+}
